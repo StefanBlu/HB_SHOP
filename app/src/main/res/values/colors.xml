@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <!--fragment -->
+    <item name="hb_red" type="color">#ffb3071b</item>
+    <item name="font" type="color">#FFFFFF</item>
+    <item name="divider" type="color">#000000</item>
+    <item name="background" type="color">#FFFFFF</item>
+    <item name="bg_sub" type="color">#ffbfbfbf</item>
+
+    <!-- actionbar -->
+    <item name="actionbar_bg" type="color">#000000</item>
+
+    <color name="black_overlay">#66000000</color>
+
+</resources>

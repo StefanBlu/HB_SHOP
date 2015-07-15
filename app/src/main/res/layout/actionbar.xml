@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/abc_action_bar_default_height_material"
+    android:background="@android:color/white">
+
+    <ImageView
+        android:id="@+id/logo_fragment"
+        android:layout_width="@dimen/abc_action_bar_default_height_material"
+        android:layout_height="@dimen/abc_action_bar_default_height_material"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/menu_icon2" />
+
+    <ImageView
+        android:id="@+id/logo_image"
+        android:layout_width="@dimen/abc_action_bar_default_height_material"
+        android:layout_height="@dimen/abc_action_bar_default_height_material"
+        android:layout_centerInParent="true"
+        android:src="@drawable/hb_logo" />
+
+    <ImageView
+        android:id="@+id/logo_lupe"
+        android:layout_width="@dimen/abc_action_bar_default_height_material"
+        android:layout_height="@dimen/abc_action_bar_default_height_material"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/lupe_icon" />
+
+</RelativeLayout>

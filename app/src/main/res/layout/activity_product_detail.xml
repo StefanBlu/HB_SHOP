@@ -1,0 +1,206 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:paddingLeft="10dp"
+        android:layout_marginTop="10dp">
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_action_name"
+            android:onClick="cl_onclose"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/product_brand_detail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Loewe"
+                android:textSize="@dimen/txt_size_product_detail_brand"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/product_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Art 55 UHD Black"
+                android:textSize="@dimen/product_txt_size" />
+
+            <TextView
+                android:id="@+id/product_cat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="55 / 140 cm"
+                android:textSize="@dimen/product_txt_size" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/product_image_detail"
+            android:layout_width="@dimen/product_width_detail"
+            android:layout_height="@dimen/product_height_detail"
+            android:layout_gravity="center"
+            android:src="@drawable/product1" />
+
+
+        <TextView
+            android:id="@+id/product_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:text="UVP: 2.600,00 €"
+            android:textStyle="bold" />
+
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="10dp"
+            android:stretchColumns="2">
+
+            <TableRow
+                android:layout_weight="1"
+                android:background="@color/hb_red">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="technical details"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold" />
+            </TableRow>
+
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="@dimen/first_colum_product_details"
+                    android:text="Kaufargumente"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/sec_column_product_details"
+                    android:text="- Beeindruckende Bildqualität dank \n   Ultra HD und Super Resolution \n  Scaling
+- Einzigartig schnelles Zappen \n   (Loewe Instant Channel Zapping)
+- Klassenbester Ton (2 x 40 Watt, 2 \n   nach \n   vorne abstrahlende Lautsprecher)
+- Für alle Empfangswege geeignet \n   (2 x DVB T2/C/S2, 2 x CI+)
+- Made in Germany" />
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="@dimen/first_colum_product_details"
+                    android:text="Display"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/sec_column_product_details"
+                    android:text="LCD" />
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="@dimen/first_colum_product_details"
+                    android:text="Bildschirmdiagonale"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/sec_column_product_details"
+                    android:text="55 Zoll / 140 cm" />
+
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="@dimen/first_colum_product_details"
+                    android:text="Auflösung"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/sec_column_product_details"
+                    android:text="3840x2160" />
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="@dimen/first_colum_product_details"
+                    android:text="Backlight-Technologie:"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    style="@style/sec_column_product_details"
+                    android:text="Edge LED" />
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="@dimen/first_colum_product_details"
+                    android:text="Design / Farbe:"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/sec_column_product_details"
+                    android:text="Rahmen (Aluminium) und Lausprecheradeckung Schwarz, Rückwand inkl. Kabelanschlüsse vollständig verkleidet" />
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="@dimen/first_colum_product_details"
+                    android:text="Bildwiederholungsrate"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/sec_column_product_details"
+                    android:text="200 Hz" />
+            </TableRow>
+
+
+        </TableLayout>
+
+
+    </LinearLayout>
+    </RelativeLayout>
+</ScrollView>

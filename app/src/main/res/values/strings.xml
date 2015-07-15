@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">HB-Shop</string>
+
+        <string-array name="section_0">
+            <item name="sub_sec1_1">Unterhaltungselektronik</item>
+            <item name="sub_sec1_2">TV</item>
+            <item name="sub_sec1_3">Hotel TV</item>
+            <item name="sub_sec1_4">Audio/Video</item>
+            <item name="sub_sec1_5">Foto</item>
+            <item name="sub_sec1_6">simpliTV / DVB-T2</item>
+        </string-array>
+        <string-array name="section_1">
+            <item name="sub_sec1_1">Haushaltsgeräte</item>
+            <item name="sub_sec1_2">Waschen</item>
+            <item name="sub_sec1_3">Kühlen</item>
+            <item name="sub_sec1_4">Geschirrspülen</item>
+            <item name="sub_sec1_5">Kochen</item>
+            <item name="sub_sec1_6">Bodenpflege</item>
+        </string-array>
+        <string-array name="section_2">
+            <item name="sub_sec1_1">IT &amp; Telekom</item>
+        </string-array>
+        <string-array name="section_3">
+            <item name="sub_sec1_1">Haus, Licht &amp; Energie</item>
+        </string-array>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_example">Example action</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="title_activity_loadingscreen">Loadingscreen</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_loading_screen">loading_screen</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_product_detail">product_detail</string>
+</resources>
